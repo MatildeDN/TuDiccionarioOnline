@@ -1,0 +1,189 @@
+* {
+    font-family: garamond;
+}
+
+img.img-fluid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    padding: 50px;
+}
+
+h2 {
+    text-align: center;
+    color: fuchsia;
+    padding: 40px;
+    padding-top: 50px;
+    font-style: !important;
+}
+
+h5 {
+    color: black;
+    background-color: white;
+}
+
+h3#RA {
+    color: fuchsia;
+    text-align: center;
+}
+
+p#intro {
+    text-align: justify;
+    line-height: 24px;
+    font-size: 22px;
+    text-indent: 30px;
+    margin-bottom: 0px;
+}
+
+p {
+    text-align: justify;
+    line-height: 30px;
+    font-size: 22px;
+    text-indent: 30px;
+    margin-bottom: 0px;
+}
+
+ul {
+    font-size: 22px;
+}
+
+#carrusel {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.paneles {
+    margin-top: 2em;
+}
+
+.panel {
+    text-align: center;
+}
+
+h3.jumbo {
+    text-align: right;
+    font-style: inherit;
+}
+
+.jumbo {
+    background-color: lightpink;
+    padding: 2em;
+}
+
+p.lead {
+    text-align: center;
+    font-family: garamond;
+}
+
+.pie {
+    background-color: rgb(42, 40, 40);
+    color: white;
+    padding: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+a.pie:hover {
+    color: lightpink;
+    text-decoration: none;
+}
+
+
+/*A partir de aquí comienza moda.html*/ 
+
+p.lema {
+    color: blue;
+    font-size: 21px;
+}
+
+p.acepcionysin {
+    font-size: 19px;
+    margin-left: 30px;
+    text-indent: 0px;
+    line-height: 1.5em;
+}
+
+p.ejemplo {
+    font-size: 19px;
+    margin-left: 30px;
+    text-indent: 0px;
+    line-height: 1.5em;
+    font-style: italic;
+    color: grey;
+}
+
+h3.division {
+    color: black;
+    text-align: center;
+    border-radius: 25px;
+    border-color: fuchsia;
+    border-style: double;
+    border-width: 10px;
+    background-color: lightyellow;
+}
+
+img#loc {
+    width: 90%;
+    padding: 80px;
+    margin-left: 50px;
+}
+
+
+h4#locuciones {
+    color: limegreen;
+    font-size: 22px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+a.btn {
+    color: black;
+    float: right;
+    background-color: lightpink;
+}
+
+h3 {
+    color: limegreen;
+    line-height: 1.5em;
+    margin-top: 20px;
+}
+
+img#diccionario {
+    margin-left: 320px;
+}
+
+img#zapcode {
+    margin-left: 95px;
+
+}
+
+p.zappar {
+    padding: 80px;
+}
+
+ol {
+    text-align: justify;
+    line-height: 30px;
+    font-size: 22px;
+    text-indent: 30px;
+    margin-bottom: 0px;
+}
+
+div#zaploc {
+    padding: 30px;
+    text-align: center;
+}
+
+p.modismos {
+    text-indent: 0px;
+    font-size: 20px;
+    text-align: center;
+}
+
+img#loc-alimentacion {
+    margin-left: 80px;
+}

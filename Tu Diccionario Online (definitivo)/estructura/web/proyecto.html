@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>Sobre el proyecto</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row encabezado">
+      <div class="col">
+        <p class="text-left"><img src="img/banner.png" class="img-fluid" alt="Banner Tu diccionario de español" width="100%"></p>
+      </div>
+    </div>
+
+    <div class="row menu">
+      <div class="col">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="index.html">Inicio</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">¿Qué puedo encontrar?</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="moda.html">Moda</a>
+                  <a class="dropdown-item" href="transportes.html">Transportes</a>
+                  <a class="dropdown-item" href="salud.html">Salud</a>
+                  <a class="dropdown-item" href="alimentacion.html">Alimentación</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="proyecto.html">Sobre el proyecto</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Búsqueda online">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><A HREF="https://dle.rae.es/">Ir</A></button>
+            </form>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div class="col-md-12">
+      <div class="col-md-12">
+        <div class="row">
+          <br><br><br><p><i>Tu diccionario de español</i> representa un modelo alternativo y actualizado de diccionario que responde a las necesidades actuales de los nuevos aprendientes. Porque, tal como se ha demostrado en gran cantidad de estudios, aprender el léxico de un idioma no implica memorizar una lista; así como los ejercicios de gramática no deberían ser la primera opción para enseñar gramática. Y es lo que comprendemos nosotros.</p> <p>Sabemos que los aprendientes de un idioma acuden a los diccionarios para buscar en un mar de letras un significado/traducción de una palabra y esto también lo ofrecemos. Sin embargo, apostamos por la tecnología y la vanguardia. Esto es el pilar de <i>Tu diccionario de español</i>. Ahora puedes aprender y comprender el significado de una palabra no solo por sus letras, ahora tus dispositivos son una herramienta más, pues gracias a ellos podrás ver lo que tanta letra refiere. ¿Quién dijo que el móvil no ha de usarse para las clases?<i>Tu diccionario de español</i> es Realidad Aumentada, es innovación didáctica, es aprendizaje e inclusión.</p><p>Así que, este te ofrecerá una lista organizada por temas para que elijas aquello que más te interesa. Por otro lado, dentro de cada una de estas secciones, hemos ordenado las unidades léxicas por orden alfabético ascendente (A-Z) y han sido organizadas en subdivisones; lo que hará de la búsqueda y del aprendizaje un proceso fructífero. Además, un conjunto de frases y otro tipo de expresiones idiomáticas relacionadas con el contenido, serán incluidas en cada uno de estos apartados. Además, al final de cada sección, encontrará un QR desde el que podrá hacer uso de la RA que seguro le será de utilidad en su aprendizaje.</p><br><br><br>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <img src="img/diccionario.jpg" width="50%" id="diccionario">
+    <div>
+
+    <br><br>
+    
+    <a class="btn btn-outline-light btn-floating m-1" id="flecha" href="#!" role="button"><i class="fas fa-angle-up"></i></a>
+    <br><br>
+    <script>
+        const flecha = document.getElementById('flecha')
+        flecha.addEventListener('click', () => {
+          window.scrollTo({
+            top:0,
+            behavior: "smooth"
+          })
+        })
+    </script>
+
+
+    <div class="row pie">
+      <div class="col">
+        <p class="text-left"><small>Facultad de Filología <br>&copy;Universidad Complutense de Madrid</small></p>
+      </div>
+      <div class="col">
+        <p class="text-center"><a class="pie" href="mailto:matildav@ucm.es?Subject=Interés%20en%20el%20proyecto"><small>Contacto</small></a></p>
+      </div>
+      <div class="col">
+        <p class="text-right"><a class="pie" href="https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673" target="_blank"><small>Protección de datos</small></a></p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

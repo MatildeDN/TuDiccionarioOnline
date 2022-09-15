@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>Modismos y expresiones</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="estilos.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row encabezado">
+      <div class="col">
+        <p class="text-left"><img src="img/banner.png" class="img-fluid" alt="Banner Tu diccionario de español" width="100%"></p>
+      </div>
+    </div>
+
+    <div class="row menu">
+      <div class="col">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="index.html">Inicio</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">¿Qué puedo encontrar?</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="moda.html">Moda</a>
+                  <a class="dropdown-item" href="transportes.html">Transportes</a>
+                  <a class="dropdown-item" href="salud.html">Salud</a>
+                  <a class="dropdown-item" href="alimentacion.html">Alimentación</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="proyecto.html">Sobre el proyecto</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Búsqueda online">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><A HREF="https://dle.rae.es/">Ir</A></button>
+            </form>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div class="row align-items-center">
+    <div class="col-md-5">
+      <div class="row">
+        <div class="col">
+      <ul>
+        <li><h3 id="locuciones">Tener mala leche.</h3></li><p class="acepcionysin">F. vulg. Ser una persona de mal carácter.</p><p class="ejemplo">Juan es una de las personas con más mala leche que conozco.. Las preguntas del examen las ha puesto para pillar.</p>
+        <li><h3 id="locuciones">Estar de mala leche.</h3></li><p class="acepcionysin">F. vulg. Estar de mal humor.</p><p class="ejemplo">Hoy viene de mala leche porque se le ha pinchado una rueda.</p>
+        <li><h3 id="locuciones">Ser salao/tener salero/ser saleroso.</h3></li><p class="acepcionysin">Loc. Que tiene gracia</p><p class="ejemplo">Es más salao que todas las cosas... En todas las fiestas baila y nos hace reír.</p>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+    <div class="col-md-7">
+      <div class="row">
+        <div class="col">
+      <img src="img/enredo.jpg" width="100%">
+        </div>
+      </div>
+    </div>
+  </div><br><br>
+
+<div class="container-fluid" id="zaploc">
+<div class="row">
+    <div class="col">
+      <p class="modismos">Tener mala leche</p>
+    </div>
+    <div class="col">
+      <p class="modismos">Estar de mala leche</p>
+    </div>
+    <div class="col">
+      <p class="modismos">Ser salao/tener salero/ser saleroso</p>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="zaploc">
+<div class="row">
+    <div class="col">
+      <img src="img/tener mala leche.png" width="20%">
+    </div>
+    <div class="col">
+      <img src="img/estar de mala leche.png" width="20%">
+    </div>
+    <div class="col">
+      <img src="img/ser salao.png" width="20%">
+    </div>
+  </div>
+</div>
+
+    <a class="btn btn-outline-light btn-floating m-1" id="flecha" href="#!" role="button"><i class="fas fa-angle-up"></i></a>
+    <br><br>
+    <script>
+        const flecha = document.getElementById('flecha')
+        flecha.addEventListener('click', () => {
+          window.scrollTo({
+            top:0,
+            behavior: "smooth"
+          })
+        })
+    </script>
+
+    <div class="row pie">
+      <div class="col">
+        <p class="text-left"><small>Facultad de Filología <br>&copy;Universidad Complutense de Madrid</small></p>
+      </div>
+      <div class="col">
+        <p class="text-center"><a class="pie" href="mailto:matildav@ucm.es?Subject=Interés%20en%20el%20proyecto"><small>Contacto</small></a></p>
+      </div>
+      <div class="col">
+        <p class="text-right"><a class="pie" href="https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673" target="_blank"><small>Protección de datos</small></a></p>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
